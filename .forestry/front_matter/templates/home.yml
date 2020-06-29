@@ -7,3 +7,13 @@ fields:
   config: {}
   template: home-hero
   label: Hero
+- name: life_in_utah
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Life in Utah
+  description: Recovery in Utah

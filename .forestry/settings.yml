@@ -7,7 +7,6 @@ sections:
 - type: document
   path: Goes here
   label: Photography
-  match: "**/*"
 - type: heading
   label: Content
 - type: document
@@ -39,7 +38,7 @@ upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":filename:desktop"
 build:
   preview_env:
   - HUGO_ENV=staging
